@@ -1,0 +1,117 @@
+/* 
+    Document   : presid
+    Created on : Jun 3, 2012, 7:17:14 PM
+    Author     : Chakatpum
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body,html {
+margin:0;
+padding:0;
+color:#000;
+background-color:#dcdcdc;
+font:15px arial,sans-serif;
+color:#333333;
+}
+
+#wrap {
+width:1020px;
+height: 100%;
+margin:0 auto;
+background:#CCCCCC;
+}
+
+#left {
+float:left;
+background-color:#b7b7b7;
+background-size: 100% auto;
+height: 100%;
+width:180px;
+padding:10px;
+text-align:center;
+}
+
+#right {
+float:right;
+background-color:#CCCCCC;
+width:800px;
+padding:10px;
+text-align:center;
+display:inline;
+}
+
+#nav {
+padding:5px 10px;
+background-color:#3DA4CC;
+}
+#nav ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+#nav li {
+display:inline;
+margin:0;
+padding:0;
+}
+ul.left {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0;
+    line-height: 40px;
+}
+h1 {margin:0;}
+h2 {margin:0 0 1em;}
+h4 {display:inline; }
+
+#header {
+padding:5px 10px;
+background-color:#ffffff;
+}
+#footer {
+clear:both;
+padding:5px 10px;
+background-color:#FFC600;
+}
+#footer p {
+margin:0;
+}
+
+* html #footer {
+height:1px;
+}
+
+table.Table_01{
+  margin-left:auto; 
+  margin-right:auto;  
+  width: 100%;
+  border-width: 0px;
+  border-spacing: 0px;
+  border-style: outset;
+  border-color: gray;
+  border-collapse: collapse;
+}
+
+table.Table_01, tr, td {
+    border:1px solid grey;
+    border-style: outset;
+    border-color: gray;
+    padding: 0px;
+   /* vertical-align: text-top; */
+}
+table.ok, tr, td {
+    border-collapse: collapse;
+    border-width: 0px;
+    border-spacing: 0px;
+    padding: 0px;
+    text-align:left;
+}
+form{
+    text-align:left;
+}
+p.small {line-height:70%;}
+a:link {text-decoration:none; color:#804E26; }    /* unvisited link */
+a:visited {text-decoration:none; color:#804E26; } /* visited link */
+a:hover {text-decoration:underline; color:#804E26; }   /* mouse over link */
+a:active {text-decoration:underline; color:#804E26; }  /* selected link */
